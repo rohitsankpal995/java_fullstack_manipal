@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c21485-f84e-4ff2-949d-9a6f5e9c2584" name="Changes" comment="" />
+    <list default="true" id="b3c21485-f84e-4ff2-949d-9a6f5e9c2584" name="Changes" comment="more files added">
+      <change afterPath="$PROJECT_DIR$/../threading/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/basics/ExcelReaderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/basics/ThreadOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/basics/ThreadTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/itc/ItcHub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/itc/NumConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/itc/NumProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/sync/GramerChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/sync/ImpData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/src/thread/sync/SpellingChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/threading.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2NMzjno7Ovpw4ACDruaGhr4Xti6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/manipal/Fullstack/java_fullstack_manipal/Exaception_handelling/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\manipal\Fullstack\java_fullstack_manipal\Exaception_handelling\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1679488876873</updated>
     </task>
+    <task id="LOCAL-00001" summary="more files added">
+      <created>1679488993450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679488993450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="more files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="more files added" />
   </component>
 </project>
