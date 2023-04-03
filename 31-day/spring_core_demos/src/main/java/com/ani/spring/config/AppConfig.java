@@ -16,4 +16,9 @@ public class AppConfig {
     public FileChecker checker(FileUtil util) {
         return new FileChecker(util);
     }
+
+    @Bean
+    public FileUtil utilData() {
+        return new FileUtil();
+    }
 }
