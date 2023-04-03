@@ -1,8 +1,8 @@
-package org.rohit.spring;
+package com.ani.spring;
 
-import org.rohit.spring.config.AppConfig;
-import org.rohit.spring.util.FileChecker;
-import org.rohit.spring.util.FileUtil;
+import com.ani.spring.config.AppConfig;
+import com.ani.spring.util.FileChecker;
+import com.ani.spring.util.FileUtil;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -38,6 +38,7 @@ public final class App {
         FileChecker checker = ctx.getBean(FileChecker.class);
         checker.checkFileValidity();
     }
+
 
     public static void main(String[] args) {
         withSpringXmlConfig();
