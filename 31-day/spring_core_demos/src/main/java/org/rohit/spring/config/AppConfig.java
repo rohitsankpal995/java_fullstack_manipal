@@ -2,6 +2,7 @@ package org.rohit.spring.config;
 
 import org.rohit.spring.util.FileChecker;
 import org.rohit.spring.util.FileUtil;
+import org.springframework.context.annotation.Bean;
 
 public class AppConfig {
 
