@@ -1,6 +1,8 @@
 package com.ani.spring.excel;
 
+import com.ani.spring.util.FileUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -12,9 +14,23 @@ public class XLManager {
     @Autowired
     private XLFormatter formatter;
 
+    @Autowired // works perfectly
+    private FileUtil util; // it will autowire with the bean in container, which is having same name as variable i.e. util
+
+    @Autowired
+    @Qualifier("utilData")
+    private FileUtil utilAbc;
+
+    // @Autowired
+    // public void setUtilAbc(FileUtil utilAbc) {
+    //     this.utilAbc = utilAbc;
+    // }
+
     public void configXL() {
         reader.setReadLimit(10);
         formatter.setFont("abc");
+        util.fileSize();
+        utilAbc.fileSize();
     }
 }
 
