@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c21485-f84e-4ff2-949d-9a6f5e9c2584" name="Changes" comment="more files added">
-      <change afterPath="$PROJECT_DIR$/../threading/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/basics/ExcelReaderTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/basics/ThreadOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/basics/ThreadTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/itc/ItcHub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/itc/NumConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/itc/NumProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/sync/GramerChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/sync/ImpData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/src/thread/sync/SpellingChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threading/threading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
