@@ -1,0 +1,4 @@
+com\rohit\rest\controller\Res.class
+com\rohit\rest\controller\WeatherController.class
+com\rohit\rest\controller\TempData.class
+com\rohit\rest\SpringRestApiApplication.class

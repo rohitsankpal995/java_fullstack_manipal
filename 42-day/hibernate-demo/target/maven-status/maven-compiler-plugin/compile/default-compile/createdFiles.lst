@@ -1,0 +1,3 @@
+com\ani\orm\domain\Car.class
+com\ani\orm\HibernateDemoApplication.class
+com\ani\orm\util\HibernateUtil.class

@@ -1,0 +1,6 @@
+com\ani\mapping\AssociationMappingsApplication.class
+com\ani\mapping\domain\Student.class
+com\ani\mapping\domain\IdentityDoc.class
+com\ani\mapping\domain\Course.class
+com\ani\mapping\domain\ContactDetails.class
+com\ani\mapping\domain\Person.class

@@ -1,0 +1,6 @@
+com\rohit\jpa\domain\Mobile.class
+com\rohit\jpa\repo\ProductSpecifications.class
+com\rohit\jpa\domain\Product.class
+com\rohit\jpa\repo\ProductRepository.class
+com\rohit\jpa\repo\ProductService.class
+com\rohit\jpa\repo\SimpleJpaRepo.class
