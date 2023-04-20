@@ -6,7 +6,10 @@ import java.util.stream.Collectors;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Direction;
+import org.springframework.data.domain.Sort.Order;
 import org.springframework.stereotype.Component;
 
 import com.ani.data.domain.Invoice;
@@ -28,10 +31,10 @@ public class CustomizedDemo {
     public void demo2() {
         // find all customer who are having name abc
         List<Invoice> invoices = repository.findAll();
-
+       
         List<Invoice> filtered = invoices.stream()
-                .filter( inv -> inv.getClient().equals("abc") )
-                .collect(Collectors.toList());
+                                    .filter( inv -> inv.getClient().equals("abc") )
+                                    .collect(Collectors.toList());
         System.out.println(filtered);
     }
 
@@ -48,26 +51,27 @@ public class CustomizedDemo {
     public void demo4() {
         System.out.println("🟢 Between 🟢");
         List<Invoice> invoices1 = repository.findByInvDtBetween(
-                LocalDate.of(2023, 04, 02),
-                LocalDate.of(2023, 04, 10)
+            LocalDate.of(2023, 04, 02),
+            LocalDate.of(2023, 04, 10) 
         );
         invoices1.forEach(System.out::println);
 
         System.out.println("🟢 Between And 🟢");
         List<Invoice> invoices2 = repository.findByInvDtBetweenAndAmtGreaterThan(
-                LocalDate.of(2023, 04, 02),
-                LocalDate.of(2023, 04, 10),
-                780d
+            LocalDate.of(2023, 04, 02),
+            LocalDate.of(2023, 04, 10),
+            780d 
         );
         invoices2.forEach(System.out::println);
     }
+
     public void demo5() {
         System.out.println("🟢 Limit and Order By 🟢");
         List<Invoice> invoices1 = repository.findTop10ByOrderByAmtDesc();
         invoices1.forEach(System.out::println);
 
         System.out.println("🟢 Like And Sort 🟢");
-        List<Invoice> invoices2 = repository.findByClientLike("%a%", Sort.by(Sort.Direction.DESC,"client"));
+        List<Invoice> invoices2 = repository.findByClientLike("%a%", Sort.by(Direction.DESC,"client"));
         invoices2.forEach(System.out::println);
 
         System.out.println("🟢 Containing 🟢");
@@ -90,5 +94,3 @@ public class CustomizedDemo {
 
     }
 }
-
-

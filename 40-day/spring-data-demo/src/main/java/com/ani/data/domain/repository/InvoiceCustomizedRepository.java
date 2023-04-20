@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.repository.CrudRepository;
@@ -12,7 +11,7 @@ import org.springframework.data.repository.CrudRepository;
 import com.ani.data.domain.Invoice;
 
 public interface InvoiceCustomizedRepository extends CrudRepository<Invoice, Long> {
-
+    
     @Override
     List<Invoice> findAll();
 
@@ -24,7 +23,7 @@ public interface InvoiceCustomizedRepository extends CrudRepository<Invoice, Lon
     List<Invoice> findByAmtGreaterThan(Double amt);
 
     // find all invoices which are generated between 2023-04-02 to 2023-04-10
-    // select * from invoice where inv_dt between
+    // select * from invoice where inv_dt between 
     List<Invoice> findByInvDtBetween(LocalDate st, LocalDate ed);
 
     List<Invoice> findByInvDtBetweenAndAmtGreaterThan(LocalDate st, LocalDate ed, Double amt);
@@ -37,4 +36,3 @@ public interface InvoiceCustomizedRepository extends CrudRepository<Invoice, Lon
 
     Page<Invoice> findAll(Pageable page);
 }
-

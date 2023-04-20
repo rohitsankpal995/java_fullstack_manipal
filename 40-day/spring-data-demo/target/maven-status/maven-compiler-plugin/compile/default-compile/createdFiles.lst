@@ -1,6 +1,0 @@
-com\ani\data\SpringDataDemoApplication.class
-com\ani\data\domain\repository\InvoiceRepository.class
-com\ani\data\domain\Invoice.class
-com\ani\data\demo\CustomizedDemo.class
-com\ani\data\demo\CrudDemo.class
-com\ani\data\domain\repository\InvoiceCustomizedRepository.class
